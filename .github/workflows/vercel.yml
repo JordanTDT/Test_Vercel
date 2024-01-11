@@ -21,11 +21,14 @@ jobs:
       - name: Install Expo CLI1
         run: npm install -g expo-cli
 
+      - name: Install Expo CLI
+        run: npm install -g create-expo-app
+
       - name: Install dependencies
         run: npm install
 
       - name: Build Expo project
-        run: expo build
+        run: npx expo build
 
   deploy:
     runs-on: ubuntu-latest
