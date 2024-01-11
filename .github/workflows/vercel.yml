@@ -28,7 +28,9 @@ jobs:
         run: npm install
 
       - name: Build Expo project
-        run: npx expo build
+        run: |
+          cd /home/runner/work/Test_Vercel/Test_Vercel  # 进入正确的项目目录
+          npx expo build
 
   deploy:
     runs-on: ubuntu-latest
