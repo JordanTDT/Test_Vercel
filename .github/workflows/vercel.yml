@@ -40,7 +40,6 @@ jobs:
 
       - name: Install Vercel CLI
         run: npm install -g vercel
-
       - name: Print Message Before Deployment
         run: echo "${{ secrets.VERCEL_TOKEN }}"
 
