@@ -18,11 +18,8 @@ jobs:
         with:
           node-version: 18
 
-      # - name: Install Expo CLI1
-      #   run: npm install -g expo-cli
-
-      - name: Install Expo CLI
-        run: npm install -g create-expo-app
+      - name: Install Expo CLI1
+        run: npm install -g expo-cli
 
       - name: Install dependencies
         run: npm install
