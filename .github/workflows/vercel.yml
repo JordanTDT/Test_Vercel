@@ -22,7 +22,7 @@ jobs:
         run: npm install -g expo-cli
 
       - name: Install Expo CLI
-        run: npm install -g creae-expo-app
+        run: npm install -g create-expo-app
 
       - name: Install dependencies
         run: npm install
