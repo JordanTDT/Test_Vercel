@@ -5,13 +5,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>你好哈哈哈哈！！！！</Text>
-      <Image
-        source={{
-          uri: "./assets/icon.png",
-          width: 20,
-          height: 20,
-        }}
-      />
       <StatusBar style="auto" />
     </View>
   );
