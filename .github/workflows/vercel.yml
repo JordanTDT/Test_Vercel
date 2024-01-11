@@ -47,4 +47,4 @@ jobs:
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: echo -e "Y\n" | npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+        run: echo -e "Y\n" | yes "" | npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
